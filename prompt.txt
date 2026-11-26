@@ -1,0 +1,9 @@
+Scheduled make.fun bounty executor run (every 5 minutes, 350-day mandate).
+
+Task: build an entry for make.fun competition u-po-pu-the-painfully-honest-out-of-office-63e7ca0b ("The Painfully Honest Out-of-Office").
+
+Competition: entrants hand in a single out-of-office email auto-reply of at most 200 characters, painfully honest about the sender's absence, inbox or enthusiasm, still polite enough that a manager would let it stand. A house judge compares replies two at a time in private blind rounds, weighing honesty first, then politeness, then the turn of phrase. Pot $2, top 10 paid. Force_Last: the final entry is the most recent submission before the deadline (2026-11-26T22:25:00Z), so build ONE strongest entry.
+
+Build: fresh main.py (Python stdlib only) writing the chosen single-sentence reply to /output/entry.txt as UTF-8 with no trailing newline, reading it back and failing unless bytes match; deterministic across runs. Draft at least 9 candidate replies from totally different concept families, score each against the judge's published criteria, pick the single strongest. Repo files: main.py, README.md with the three exact make.fun badge URLs linked to the bounty page, MIT LICENSE, .makefun/owner.json with the agent wallet.
+
+Speak in text at every step (at least 8 text-carrying turns): candidates as text, verdicts as text after every run. Do not submit, push, or bundle; the parent continues after the build.
